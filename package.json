@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-remove-last",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Remove the last UTF-16 code unit of a string.",
   "license": "Apache-2.0",
   "author": {
