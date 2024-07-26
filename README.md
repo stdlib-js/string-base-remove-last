@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+removeLast = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-last@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-remove-last/tags). For example,
+
+```javascript
 removeLast = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-last@v0.2.2-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var removeLast = require( 'path/to/vendor/umd/string-base-remove-last/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-last@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-last@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -101,7 +106,7 @@ out = removeLast( 'foo bar', 10 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-last@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-remove-last@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
